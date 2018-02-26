@@ -2,17 +2,17 @@ package com.football.tdd;
 
 public class FootballTeam {
 
+	// To fix the code this variable was added and the constructor and the getter
+	// now uses this variable to store games won. This is the minimum code to pass
+	// the test.
+	private int gamesWon;
+
 	public FootballTeam(int gamesWon) {
-		// TODO Auto-generated constructor stub
-		// At this point there is no code here, is the minimum code to compile the
-		// project and execute the test.
+		this.gamesWon = gamesWon;
 	}
 
 	public int getGamesWon() {
-		// TODO Auto-generated method stub
-		// At this point there is no code here, is the minimum code to compile the
-		// project and execute the test.
-		return 0;
+		return gamesWon;
 	}
 
 }
