@@ -14,8 +14,7 @@ public class FootballTeamTest {
 		// to detect the error.
 		assertEquals("3 games passed to constructor, but " + team.getGamesWon() + " were returned.", 3,
 				team.getGamesWon());
-		
-		// This test is failing, and, in this step (RED - white a failing test), is a
-		// good thing.
+
+		// This test is passing, and, in this step (GREEN), is a good thing.
 	}
 }
